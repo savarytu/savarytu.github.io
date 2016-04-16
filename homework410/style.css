@@ -1,0 +1,32 @@
+nav {
+    display: block;
+    float: left;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.nav li {
+    position: relative;
+    float: left;
+    color: #FFF;
+    background-color: #000;
+    display: block;
+    padding: 5px;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+
+/*點擊到ul的選單出現變數*/
+
+.nav li:hover ul {
+    display: block;
+}
